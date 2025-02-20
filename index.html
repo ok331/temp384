@@ -2,85 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>x</title>
     <style>
         body {
-            background-color: #1a1a1a;
-            color: #e0e0e0;
-            font-family: 'Courier New', monospace;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
         }
 
         .container {
-            text-align: center;
             padding: 20px;
-            background-color: #2d2d2d;
-            border-radius: 10px;
+            margin: 10px;
         }
 
         .mysterious-button {
-            background-color: #404040;
-            color: #e0e0e0;
+            background-color: gray;
+            color: white;
             border: none;
-            padding: 15px 30px;
-            margin: 20px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .mysterious-button:hover {
-            background-color: #505050;
-        }
-
-        #_0x7b5 {
-            margin-top: 20px;
-            font-size: 1.2em;
+            padding: 10px;
+            margin: 10px;
         }
 
         .mysterious-input {
-            background-color: #404040;
-            color: #e0e0e0;
-            border: 1px solid #505050;
-            padding: 10px;
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 5px;
             margin: 10px;
-            border-radius: 5px;
-            font-family: 'Courier New', monospace;
             width: 200px;
-            text-align: center;
         }
 
-        /* Add these mobile-specific styles */
         @media (max-width: 600px) {
             .container {
-                width: 90%;
-                margin: 10px;
-                padding: 15px;
+                margin: 5px;
             }
 
             .mysterious-input {
                 width: 80%;
-                max-width: 250px;
             }
 
             .mysterious-button {
                 width: 80%;
-                max-width: 250px;
-                margin: 10px auto;
-                padding: 12px 20px;
-            }
-
-            h1 {
-                font-size: 1.5em;
-            }
-
-            p {
-                font-size: 1em;
             }
         }
     </style>
@@ -90,7 +55,8 @@
         <h1 id="_0x7b2"></h1>
         <p id="_0x7b3"></p>
         <input type="text" id="_0x7b4" placeholder="" class="mysterious-input">
-        <button class="mysterious-button" onclick="_0x8f4e()">...</button>
+        <br>
+        <button class="mysterious-button" onclick="_0x8f4e()">Enter</button>
         <div id="_0x7b5"></div>
     </div>
 
